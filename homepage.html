@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="screenStyle.css" media="screen">
+    <title>Amega s.r.o</title>
+    <style class="background">
+        body {
+            background-color: white;
+            background-size: 1820px 1000px;
+        }
+    </style>
+</head>
+<body>
+<div class="hamburgerContainer">
+    <nav class="smallNav" id="smallNav">
+        <a class="active" href="homepage.html"><img src="pics/logo.jpg" alt="amega s.r.o" class="logo"></a>
+        <div id="hamburger">
+            <a href="homepage.html" onclick="myFunction3()">Úvod</a>
+            <a href="software.html" onclick="myFunction3()">Software</a>
+            <a href="hardware.html" onclick="myFunction3()">Hardware</a>
+            <a href="sluzby.html" onclick="myFunction3()">Služby</a>
+            <a href="cennik.html" onclick="myFunction3()">Cenník</a>
+            <a href="naStiahnute.html" onclick="myFunction3()">Na Stiahnutie</a>
+            <a href="referencie.html" onclick="myFunction3()">Referencie</a>
+            <a href="aktualizacie.html" onclick="myFunction3()">Aktualizácia Programu</a>
+            <a href="kontakt.html" onclick="myFunction3()">Kontakt</a>
+            <a href="prihlasenie.html" onclick="myFunction3()">Prihlásenie</a>
+            <a href="novinky.html" onclick="myFunction3()">Novinky</a>
+            <a href="demo.html" onclick="myFunction3()">Demo verzia</a>
+            <a href="pristup.html" onclick="myFunction3()">Vzdialený prístup</a>
+        </div>
+        <a class="icon" onclick="myFunction2()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+</div>
+
+    <nav class="topnav" id="topnav" >
+        <a href="homepage.html">Úvod</a>
+        <a href="software.html">Software</a>
+        <a href="hardware.html">Hardware</a>
+        <a href="sluzby.html">Služby</a>
+        <a href="cennik.html">Cenník</a>
+        <a href="naStiahnute.html">Na Stiahnutie</a>
+        <a href="referencie.html">Referencie</a>
+        <a href="aktualizacie.html">Aktualizácia Programu</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="prihlasenie.html">Prihlásenie</a>
+        <a href="novinky.html">Novinky</a>
+        <a href="demo.html">Demo verzia</a>
+        <a href="pristup.html">Vzdialený prístup</a>
+    </nav>
+    <br><br><br>
+    <main>
+        <article>
+
+            <div class="intro" style="font-size:5vh;">
+                <h1>Vitajte v svete AMEGA s.r.o.</h1>
+                <h3>Vašej brány k inovácii a efektívnosti!</h3>
+            </div>
+
+            <div class="intro1" style="font-size:4vh;">
+                Viete si predstaviť, aké by to bolo, keby Vaše pokladničné operácie boli úplne bezstarostné?
+                My v AmegaPos sme tu, aby sme Vám to umožnili.
+                Sme presvedčení, že technológia by mala slúžiť Vám, nie naopak. </br>
+
+                Ak si predstavujete softvér, ktorý je nielen jednoduchý na používanie,
+                ale aj plne prispôsobiteľný Vašim potrebám, ste na správnej adrese.
+                Naša vášňou je vytvárať riešenia, ktoré Vám umožnia zamerať sa na
+                to, čo robíte najlepšie - poskytovať skvelý servis svojim zákazníkom.</br>
+
+                Ako zákazník AmegaPosu, nebudete len používať softvér.
+                Budete mať partnera, ktorý Vám bude rozumieť a bude pracovať na
+                tom, aby vám pomohol rásť. S nami sa nebudete musieť starať o
+                technické detaily - my sa postaráme o ne, aby ste sa mohli sústrediť
+                na svoje podnikanie.</br>
+
+                Nečakajte na zmenu. Vytvorte ju sami s nami. AmegaPos je tu, aby
+                vám pomohol zjednodušiť Váš biznis a dosiahnuť Vaše ciele.
+                Čakáme na Vás - Vaša úspešná budúcnosť začína tu.
+            </div>
+
+        </article>
+    </main>
+        <footer>
+
+        </footer>
+    <script>
+        function myFunction2() {
+            var x = document.getElementById("hamburger");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        function myFunction3() {
+            var x = document.getElementById("hamburger");
+            x.style.display = "none";
+        }
+    </script>
+    </body>
+</html>
